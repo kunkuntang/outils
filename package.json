@@ -1,22 +1,22 @@
 {
-  "name": "outils",
-  "version": "1.0.3",
+  "name": "xkutils",
+  "version": "1.0.0",
   "description": "前端业务代码工具库",
-  "main": "min/outils.min.js",
+  "main": "min/xkutils.min.js",
   "scripts": {
     "build": "node script/build.js",
     "test": "node script/test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/proYang/outils.git"
+    "url": "git+https://github.com/kunkuntang/xkutils.git"
   },
   "keywords": [
     "util",
     "tool",
     "common-util"
   ],
-  "author": "SlaneYang",
+  "author": "Kuntang",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.0",
