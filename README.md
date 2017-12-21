@@ -1,6 +1,6 @@
 # xkutils
 
-[![Build Status](https://travis-ci.org/proYang/xkutils.svg?branch=master) ![LICENSE MIT](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/xkutils) 
+[![Build Status](https://travis-ci.org/kunkuntang/xkutils.svg?branch=master) ![LICENSE MIT](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/xkutils) 
 
  
 前端业务代码工具库  
@@ -104,49 +104,57 @@ const OS = getOS()
 #### &emsp;&emsp;[parseQueryString][parseQueryString]&emsp;&emsp;url参数转对象
 #### &emsp;&emsp;[stringfyQueryString][stringfyQueryString]&emsp;&emsp;对象序列化
 
-[arrayEqual]:https://github.com/proYang/xkutils/blob/master/src/array/arrayEqual.js
+### Event
+#### &emsp;&emsp;[addEvent][addEvent]&emsp;&emsp;为对象添加事件监听事件
+#### &emsp;&emsp;[removeEvent][removeEvent]&emsp;&emsp;为对象取消事件监听
 
-[addClass]:https://github.com/proYang/xkutils/blob/master/src/class/addClass.js
-[hasClass]:https://github.com/proYang/xkutils/blob/master/src/class/hasClass.js
-[removeClass]:https://github.com/proYang/xkutils/blob/master/src/class/removeClass.js
 
-[getCookie]:https://github.com/proYang/xkutils/blob/master/src/cookie/getCookie.js
-[removeCookie]:https://github.com/proYang/xkutils/blob/master/src/cookie/removeCookie.js
-[setCookie]:https://github.com/proYang/xkutils/blob/master/src/cookie/setCookie.js
+[arrayEqual]:https://github.com/kunkuntang/xkutils/blob/master/src/array/arrayEqual.js
 
-[getExplore]:https://github.com/proYang/xkutils/blob/master/src/device/getExplore.js
-[getOS]:https://github.com/proYang/xkutils/blob/master/src/device/getOS.js
+[addClass]:https://github.com/kunkuntang/xkutils/blob/master/src/class/addClass.js
+[hasClass]:https://github.com/kunkuntang/xkutils/blob/master/src/class/hasClass.js
+[removeClass]:https://github.com/kunkuntang/xkutils/blob/master/src/class/removeClass.js
 
-[getScrollTop]:https://github.com/proYang/xkutils/blob/master/src/dom/getScrollTop.js
-[offset]:https://github.com/proYang/xkutils/blob/master/src/dom/offset.js
-[scrollTo]:https://github.com/proYang/xkutils/blob/master/src/dom/scrollTo.js
-[setScrollTop]:https://github.com/proYang/xkutils/blob/master/src/dom/setScrollTop.js
+[getCookie]:https://github.com/kunkuntang/xkutils/blob/master/src/cookie/getCookie.js
+[removeCookie]:https://github.com/kunkuntang/xkutils/blob/master/src/cookie/removeCookie.js
+[setCookie]:https://github.com/kunkuntang/xkutils/blob/master/src/cookie/setCookie.js
 
-[debounce]:https://github.com/proYang/xkutils/blob/master/src/function/debounce.js
-[throttle]:https://github.com/proYang/xkutils/blob/master/src/function/throttle.js
+[getExplore]:https://github.com/kunkuntang/xkutils/blob/master/src/device/getExplore.js
+[getOS]:https://github.com/kunkuntang/xkutils/blob/master/src/device/getOS.js
 
-[getKeyName]:https://github.com/proYang/xkutils/blob/master/src/keycode/getKeyName.js
+[getScrollTop]:https://github.com/kunkuntang/xkutils/blob/master/src/dom/getScrollTop.js
+[offset]:https://github.com/kunkuntang/xkutils/blob/master/src/dom/offset.js
+[scrollTo]:https://github.com/kunkuntang/xkutils/blob/master/src/dom/scrollTo.js
+[setScrollTop]:https://github.com/kunkuntang/xkutils/blob/master/src/dom/setScrollTop.js
 
-[deepClone]:https://github.com/proYang/xkutils/blob/master/src/object/deepClone.js
-[isEmptyObject]:https://github.com/proYang/xkutils/blob/master/src/object/isEmptyObject.js
+[debounce]:https://github.com/kunkuntang/xkutils/blob/master/src/function/debounce.js
+[throttle]:https://github.com/kunkuntang/xkutils/blob/master/src/function/throttle.js
 
-[randomColor]:https://github.com/proYang/xkutils/blob/master/src/random/randomColor.js
-[randomNum]:https://github.com/proYang/xkutils/blob/master/src/random/randomNum.js
+[getKeyName]:https://github.com/kunkuntang/xkutils/blob/master/src/keycode/getKeyName.js
 
-[isEmail]:https://github.com/proYang/xkutils/blob/master/src/regexp/isEmail.js
-[isIdCard]:https://github.com/proYang/xkutils/blob/master/src/regexp/isIdCard.js
-[isPhoneNum]:https://github.com/proYang/xkutils/blob/master/src/regexp/isPhoneNum.js
-[isUrl]:https://github.com/proYang/xkutils/blob/master/src/regexp/isUrl.js
+[deepClone]:https://github.com/kunkuntang/xkutils/blob/master/src/object/deepClone.js
+[isEmptyObject]:https://github.com/kunkuntang/xkutils/blob/master/src/object/isEmptyObject.js
 
-[digitUppercase]:https://github.com/proYang/xkutils/blob/master/src/string/digitUppercase.js
+[randomColor]:https://github.com/kunkuntang/xkutils/blob/master/src/random/randomColor.js
+[randomNum]:https://github.com/kunkuntang/xkutils/blob/master/src/random/randomNum.js
 
-[isSupportWebP]:https://github.com/proYang/xkutils/blob/master/src/support/isSupportWebP.js
+[isEmail]:https://github.com/kunkuntang/xkutils/blob/master/src/regexp/isEmail.js
+[isIdCard]:https://github.com/kunkuntang/xkutils/blob/master/src/regexp/isIdCard.js
+[isPhoneNum]:https://github.com/kunkuntang/xkutils/blob/master/src/regexp/isPhoneNum.js
+[isUrl]:https://github.com/kunkuntang/xkutils/blob/master/src/regexp/isUrl.js
 
-[formatPassTime]:https://github.com/proYang/xkutils/blob/master/src/time/formatPassTime.js
-[formatRemainTime]:https://github.com/proYang/xkutils/blob/master/src/time/formatRemainTime.js
+[digitUppercase]:https://github.com/kunkuntang/xkutils/blob/master/src/string/digitUppercase.js
 
-[parseQueryString]:https://github.com/proYang/xkutils/blob/master/src/url/parseQueryString.js
-[stringfyQueryString]:https://github.com/proYang/xkutils/blob/master/src/url/stringfyQueryString.js
+[isSupportWebP]:https://github.com/kunkuntang/xkutils/blob/master/src/support/isSupportWebP.js
+
+[formatPassTime]:https://github.com/kunkuntang/xkutils/blob/master/src/time/formatPassTime.js
+[formatRemainTime]:https://github.com/kunkuntang/xkutils/blob/master/src/time/formatRemainTime.js
+
+[parseQueryString]:https://github.com/kunkuntang/xkutils/blob/master/src/url/parseQueryString.js
+[stringfyQueryString]:https://github.com/kunkuntang/xkutils/blob/master/src/url/stringfyQueryString.js
+
+[addEvent]:https://github.com/kunkuntang/xkutils/blob/master/src/event/addEvent.js
+[removeEvent]:https://github.com/kunkuntang/xkutils/blob/master/src/event/removeEvent.js
 
 
 - 软件名称 xkutils
