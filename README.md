@@ -1,6 +1,6 @@
 # xkutils
 
-[![Build Status](https://travis-ci.org/kunkuntang/xkutils.svg?branch=master) ![LICENSE MIT](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/xkutils) 
+[![Build Status](https://travis-ci.org/proYang/outils.svg?branch=master) ![LICENSE MIT](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/xkutils) 
 
  
 前端业务代码工具库  
