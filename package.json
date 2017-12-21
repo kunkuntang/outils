@@ -16,7 +16,7 @@
     "tool",
     "common-util"
   ],
-  "author": "Kuntang",
+  "author": "kuntang",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.0",

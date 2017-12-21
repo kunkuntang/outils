@@ -1,11 +1,17 @@
-function addEvent(obj, event, fn) {
-    if(obj.attachEvent) {
-        obj.attachEvent('on' + event, fn);
-    } else if (obj.addEventListener) {
-        obj.addEventListener(event, fn, false);
-    } else {
-        console.error('add event failed!!');
+const addEvent = (function() {
+  if (window.addEventListener) {
+    return function(obj, evt, fn, useCapture) {
+      return obj.addEventListener(evt, fn, useCapture)
     }
-}
+  } else if (window.attachEvent) {
+    return function(obj, evt, fn) {
+      return obj.attachEvent('on' + evt, fn)
+    }
+  } else {
+    return function(obj, evt, fn) {
+      obj['on' + evt] = fn
+    }
+  }
+})();
 
 modules.export = addEvent;

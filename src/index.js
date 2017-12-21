@@ -46,50 +46,52 @@ const parseQueryString = require('./url/parseQueryString')
 const stringfyQueryString = require('./url/stringfyQueryString')
 
 const addEvent = require('./event/addEvent')
+const removeEvent = require('./event/removeEvent')
 
 module.exports = {
-    arrayEqual,
+  arrayEqual,
 
-    addClass,
-    hasClass,
-    removeClass,
+  addClass,
+  hasClass,
+  removeClass,
 
-    getCookie,
-    removeCookie,
-    setCookie,
+  getCookie,
+  removeCookie,
+  setCookie,
 
-    getOS,
-    getExplore,
+  getOS,
+  getExplore,
 
-    getScrollTop,
-    offset,
-    scrollTo,
-    setScrollTop,
+  getScrollTop,
+  offset,
+  scrollTo,
+  setScrollTop,
 
-    debounce,
-    throttle,
+  debounce,
+  throttle,
 
-    getKeyName,
+  getKeyName,
 
-    deepClone,
-    isEmptyObject,
+  deepClone,
+  isEmptyObject,
 
-    randomColor,
-    randomNum,
+  randomColor,
+  randomNum,
 
-    isEmail,
-    isIdCard,
-    isPhoneNum,
-    isUrl,
+  isEmail,
+  isIdCard,
+  isPhoneNum,
+  isUrl,
 
-    digitUppercase,
+  digitUppercase,
 
-    isSupportWebP,
+  isSupportWebP,
 
-    formatPassTime,
-    formatRemainTime,
-    parseQueryString,
-    stringfyQueryString,
+  formatPassTime,
+  formatRemainTime,
+  parseQueryString,
+  stringfyQueryString,
 
-    addEvent,
+  addEvent,
+  removeEvent
 }

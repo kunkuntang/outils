@@ -1,6 +1,6 @@
-# outils
+# xkutils
 
-[![Build Status](https://travis-ci.org/proYang/outils.svg?branch=master) ![LICENSE MIT](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/outils) 
+[![Build Status](https://travis-ci.org/proYang/xkutils.svg?branch=master) ![LICENSE MIT](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/xkutils) 
 
  
 前端业务代码工具库  
@@ -11,36 +11,36 @@
 
 ## 安装使用
 
-1. 直接下载`min`目录下的[outils.min.js](https://github.com/proYang/outils/blob/master/min/outils.min.js)使用，支持UMD通用模块规范  
+1. 直接下载`min`目录下的[xkutils.min.js](https://github.com/kunkuntang/xkutils/blob/master/min/xkutils.min.js)使用，支持UMD通用模块规范  
 2. 使用npm安装
 
 ### 浏览器:
 ``` html
-  <script src="outils.min.js"></script>
+  <script src="xkutils.min.js"></script>
   <script>
-      var OS = outils.getOS()
+      var OS = xkutils.getOS()
   </script>
 ```
 
 ### npm:
 ``` bash
-$ npm install --save-dev outils
+$ npm install --save-dev xkutils
 ```
 
 webpack、RequireJS、SeaJS等
 
 ``` javascript
 // 完整引入
-const outils = require('outils')
-const OS = outils.getOS()
+const xkutils = require('xkutils')
+const OS = xkutils.getOS()
 ```
 
 **推荐使用方法**  
 
 你真的不需要完整引入所有函数，所以只引入需要使用的方法即可。
 ``` javascript
-// 只引入部分方法('outils/<方法名>')
-const getOS = require('outils/getOS')
+// 只引入部分方法('xkutils/<方法名>')
+const getOS = require('xkutils/getOS')
 const OS = getOS()
 ```
 ## API文档
@@ -104,46 +104,52 @@ const OS = getOS()
 #### &emsp;&emsp;[parseQueryString][parseQueryString]&emsp;&emsp;url参数转对象
 #### &emsp;&emsp;[stringfyQueryString][stringfyQueryString]&emsp;&emsp;对象序列化
 
-[arrayEqual]:https://github.com/proYang/outils/blob/master/src/array/arrayEqual.js
+[arrayEqual]:https://github.com/proYang/xkutils/blob/master/src/array/arrayEqual.js
 
-[addClass]:https://github.com/proYang/outils/blob/master/src/class/addClass.js
-[hasClass]:https://github.com/proYang/outils/blob/master/src/class/hasClass.js
-[removeClass]:https://github.com/proYang/outils/blob/master/src/class/removeClass.js
+[addClass]:https://github.com/proYang/xkutils/blob/master/src/class/addClass.js
+[hasClass]:https://github.com/proYang/xkutils/blob/master/src/class/hasClass.js
+[removeClass]:https://github.com/proYang/xkutils/blob/master/src/class/removeClass.js
 
-[getCookie]:https://github.com/proYang/outils/blob/master/src/cookie/getCookie.js
-[removeCookie]:https://github.com/proYang/outils/blob/master/src/cookie/removeCookie.js
-[setCookie]:https://github.com/proYang/outils/blob/master/src/cookie/setCookie.js
+[getCookie]:https://github.com/proYang/xkutils/blob/master/src/cookie/getCookie.js
+[removeCookie]:https://github.com/proYang/xkutils/blob/master/src/cookie/removeCookie.js
+[setCookie]:https://github.com/proYang/xkutils/blob/master/src/cookie/setCookie.js
 
-[getExplore]:https://github.com/proYang/outils/blob/master/src/device/getExplore.js
-[getOS]:https://github.com/proYang/outils/blob/master/src/device/getOS.js
+[getExplore]:https://github.com/proYang/xkutils/blob/master/src/device/getExplore.js
+[getOS]:https://github.com/proYang/xkutils/blob/master/src/device/getOS.js
 
-[getScrollTop]:https://github.com/proYang/outils/blob/master/src/dom/getScrollTop.js
-[offset]:https://github.com/proYang/outils/blob/master/src/dom/offset.js
-[scrollTo]:https://github.com/proYang/outils/blob/master/src/dom/scrollTo.js
-[setScrollTop]:https://github.com/proYang/outils/blob/master/src/dom/setScrollTop.js
+[getScrollTop]:https://github.com/proYang/xkutils/blob/master/src/dom/getScrollTop.js
+[offset]:https://github.com/proYang/xkutils/blob/master/src/dom/offset.js
+[scrollTo]:https://github.com/proYang/xkutils/blob/master/src/dom/scrollTo.js
+[setScrollTop]:https://github.com/proYang/xkutils/blob/master/src/dom/setScrollTop.js
 
-[debounce]:https://github.com/proYang/outils/blob/master/src/function/debounce.js
-[throttle]:https://github.com/proYang/outils/blob/master/src/function/throttle.js
+[debounce]:https://github.com/proYang/xkutils/blob/master/src/function/debounce.js
+[throttle]:https://github.com/proYang/xkutils/blob/master/src/function/throttle.js
 
-[getKeyName]:https://github.com/proYang/outils/blob/master/src/keycode/getKeyName.js
+[getKeyName]:https://github.com/proYang/xkutils/blob/master/src/keycode/getKeyName.js
 
-[deepClone]:https://github.com/proYang/outils/blob/master/src/object/deepClone.js
-[isEmptyObject]:https://github.com/proYang/outils/blob/master/src/object/isEmptyObject.js
+[deepClone]:https://github.com/proYang/xkutils/blob/master/src/object/deepClone.js
+[isEmptyObject]:https://github.com/proYang/xkutils/blob/master/src/object/isEmptyObject.js
 
-[randomColor]:https://github.com/proYang/outils/blob/master/src/random/randomColor.js
-[randomNum]:https://github.com/proYang/outils/blob/master/src/random/randomNum.js
+[randomColor]:https://github.com/proYang/xkutils/blob/master/src/random/randomColor.js
+[randomNum]:https://github.com/proYang/xkutils/blob/master/src/random/randomNum.js
 
-[isEmail]:https://github.com/proYang/outils/blob/master/src/regexp/isEmail.js
-[isIdCard]:https://github.com/proYang/outils/blob/master/src/regexp/isIdCard.js
-[isPhoneNum]:https://github.com/proYang/outils/blob/master/src/regexp/isPhoneNum.js
-[isUrl]:https://github.com/proYang/outils/blob/master/src/regexp/isUrl.js
+[isEmail]:https://github.com/proYang/xkutils/blob/master/src/regexp/isEmail.js
+[isIdCard]:https://github.com/proYang/xkutils/blob/master/src/regexp/isIdCard.js
+[isPhoneNum]:https://github.com/proYang/xkutils/blob/master/src/regexp/isPhoneNum.js
+[isUrl]:https://github.com/proYang/xkutils/blob/master/src/regexp/isUrl.js
 
-[digitUppercase]:https://github.com/proYang/outils/blob/master/src/string/digitUppercase.js
+[digitUppercase]:https://github.com/proYang/xkutils/blob/master/src/string/digitUppercase.js
 
-[isSupportWebP]:https://github.com/proYang/outils/blob/master/src/support/isSupportWebP.js
+[isSupportWebP]:https://github.com/proYang/xkutils/blob/master/src/support/isSupportWebP.js
 
-[formatPassTime]:https://github.com/proYang/outils/blob/master/src/time/formatPassTime.js
-[formatRemainTime]:https://github.com/proYang/outils/blob/master/src/time/formatRemainTime.js
+[formatPassTime]:https://github.com/proYang/xkutils/blob/master/src/time/formatPassTime.js
+[formatRemainTime]:https://github.com/proYang/xkutils/blob/master/src/time/formatRemainTime.js
 
-[parseQueryString]:https://github.com/proYang/outils/blob/master/src/url/parseQueryString.js
-[stringfyQueryString]:https://github.com/proYang/outils/blob/master/src/url/stringfyQueryString.js
+[parseQueryString]:https://github.com/proYang/xkutils/blob/master/src/url/parseQueryString.js
+[stringfyQueryString]:https://github.com/proYang/xkutils/blob/master/src/url/stringfyQueryString.js
+
+
+- 软件名称 xkutils
+- 版本号 v1.1.1
+- 来源URL https://www.npmjs.com/package/xkutils
+- 版权方式 MIT
